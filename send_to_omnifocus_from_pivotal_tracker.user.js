@@ -14,7 +14,7 @@ jQuery(function($) {
            '-webkit-border-radius: 5px; -moz-border-radius: 5px; border: solid 2px #fff;" '+
     'onmousedown=\''+
     'var item=jQuery(this).closest(".item");'+
-    'var id = item.find(".story_id_area input").val();'+
+    'var id = item.find(".model_id_area input").val();'+
     'var title = item.find("textarea.story_name").val();'+
     'var projectName = jQuery(".projectName a").text();'+
     'jQuery(this).attr("href", "omnifocus:///add?name="+encodeURIComponent(projectName+" - "+title)+"&note="+encodeURIComponent("https://www.pivotaltracker.com/story/show/"+id));'+
