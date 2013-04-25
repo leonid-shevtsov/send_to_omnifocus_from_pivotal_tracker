@@ -12,6 +12,6 @@
 
 * * *
 
-(c) 2012 Leonid Shevtsov
+(c) 2012-2013 Leonid Shevtsov
 
 I am not affiliated with either OmniFocus or Pivotal Labs
