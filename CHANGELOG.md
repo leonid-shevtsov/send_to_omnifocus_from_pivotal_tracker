@@ -1,3 +1,7 @@
+# 1.1 2013-04-25
+
+Hotfix to avoid spamming console.log.
+
 # 1.0 2013-04-25
 
 Updated to work after Pivotal Tracker's redesign.

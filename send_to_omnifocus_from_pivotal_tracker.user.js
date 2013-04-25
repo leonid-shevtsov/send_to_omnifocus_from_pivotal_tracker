@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Send to OmniFocus from Pivotal Tracker
-// @version 1.0
+// @version 1.1
 // @description Adds a button to every Pivotal Tracker story, that opens the OmniFocus quick entry bar with the story title and URL filled in.
 // @icon icon128.png
 // @match https://www.pivotaltracker.com/s/projects/*
@@ -30,7 +30,6 @@ jQuery(function($) {
 
     "var storyWithOmnifocus = function() {"+
     "var html = storyWithoutOmnifocus.apply(this, arguments);"+
-    "console.log(html);"+
     "return html.replace('<fieldset class=\"story info\">', ' "+omnifocusButton+" ' + '<fieldset class=\"story info\">');"+
   "};"+
   "window.JST['templates/stories/form'] = storyWithOmnifocus;";
